@@ -5,8 +5,10 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # importing dataset
+# API command to download dataset -> kaggle datasets download -d jacklizhi/creditcard
+# Link to download dataset -> https://www.kaggle.com/jacklizhi/creditcard
 
-dataset = pd.read_csv('D:\CODES\Python Projects\Files\ML\creditcard.csv')
+dataset = pd.read_csv('creditcard.csv')
 
 dataset.info()
 
